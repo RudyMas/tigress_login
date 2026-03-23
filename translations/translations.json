@@ -1,0 +1,32 @@
+{
+  "nl": {
+    "Login": "Inloggen",
+    "Logout": "Uitloggen",
+    "Register": "Registreren"
+  },
+  "fr": {
+    "Login": "Se connecter",
+    "Logout": "Se déconnecter",
+    "Register": "S'inscrire"
+  },
+  "de": {
+    "Login": "Anmelden",
+    "Logout": "Abmelden",
+    "Register": "Registrieren"
+  },
+  "es": {
+    "Login": "Iniciar sesión",
+    "Logout": "Cerrar sesión",
+    "Register": "Registrarse"
+  },
+  "it": {
+    "Login": "Accedi",
+    "Logout": "Disconnettersi",
+    "Register": "Registrati"
+  },
+  "sv": {
+    "Login": "Logga in",
+    "Logout": "Logga ut",
+    "Register": "Registrera"
+  }
+}

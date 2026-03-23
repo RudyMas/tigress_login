@@ -1,0 +1,34 @@
+{
+  "routes": [
+    {
+      "request": "GET",
+      "path": "/login",
+      "controller": "login\\LoginController",
+      "method": "login"
+    },
+    {
+      "request": "POST",
+      "path": "/login",
+      "controller": "login\\LoginCrudController",
+      "method": "login"
+    },
+    {
+      "request": "GET",
+      "path": "/logout",
+      "controller": "login\\LoginCrudController",
+      "method": "logout"
+    },
+    {
+      "request": "GET",
+      "path": "/register",
+      "controller": "login\\LoginController",
+      "method": "register"
+    },
+    {
+      "request": "POST",
+      "path": "/register",
+      "controller": "login\\LoginCrudController",
+      "method": "register"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "tigress/login",
+  "description": "Login module for Tigress",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Rudy Mas",
+      "email": "rudy.mas@rudymas.be",
+      "homepage": "https://rudymas.be",
+      "role": "Project Manager, Lead Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.5",
+    "tigress/users": ">=2026"
+  },
+  "require-dev": {
+    "tigress/core": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tigress\\": "src/",
+      "Controller\\": "src/controllers",
+      "Repository\\": "src/repositories"
+    }
+  }
+}
